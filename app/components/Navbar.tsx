@@ -1,5 +1,4 @@
 'use client'
-import {Montserrat} from "next/font/google"
 import Image from "next/image"
 import logo from '@/image/Meubel House_Logos-05.png'
 import { IoSearch } from "react-icons/io5";
@@ -8,11 +7,6 @@ import { FaRegHeart } from "react-icons/fa6";
 import { IoCartOutline } from "react-icons/io5";
 import Link from "next/link"
 import { useState } from "react";
-const montserrat = Montserrat({
-    subsets:["latin"],
-    weight:["700"],
-    display: "swap"
-  })
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -31,7 +25,6 @@ const Navbar = () => {
         <div id="brand" className="h-[41px] w-[185px] mt-[29px] mr-[29px]">
           <h3
             style={{
-              fontStyle: 'montserrat',
               fontWeight: 700,
               fontSize: 34,
             }}
