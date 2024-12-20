@@ -10,7 +10,7 @@ import pt4 from '@/image/Images (3).png'
 import pt5 from '@/image/Images 5.png'
 import pt6 from '@/image/image 6.png'
 import pt7 from '@/image/Images 7.png'
-import pt8 from '@/image/Image 8.png'
+import pt8 from '@/image/image 8.png'
 import Footer from '../components/Footer'
 
 const page = () => {
