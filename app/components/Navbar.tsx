@@ -31,7 +31,7 @@ const Navbar = () => {
         <div id="brand" className="h-[41px] w-[185px] mt-[29px] mr-[29px]">
           <h3
             style={{
-              fontStyle: 'montserrat.className',
+              fontStyle: 'montserrat',
               fontWeight: 700,
               fontSize: 34,
             }}
