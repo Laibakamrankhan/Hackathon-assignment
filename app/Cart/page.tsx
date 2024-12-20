@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from 'next/link'
+
 import Image from 'next/image'
 import cart from '@/image/homebaner.png'
 import Navbar from '../components/Navbar'
