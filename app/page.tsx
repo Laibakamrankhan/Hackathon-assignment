@@ -11,14 +11,11 @@ import Setup2 from "./components/Setup2";
 export default function Home() {
   return (
    <div>
-    <Navbar />
     <Herobanner />
    <Rangebrowser />
    <Products />
    <Inspration />
    <Setup2 />
-   <Footer />
-  
    </div>
   );
 }

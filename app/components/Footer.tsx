@@ -1,11 +1,12 @@
 import React from 'react'
+import Link from 'next/link'
 
 const Footer = () => {
   return (
     <div className="w-full h-auto mt-[300px] px-4 sm:px-6 md:px-16">
     <div className="flex flex-col sm:flex-row justify-between gap-12 sm:gap-20">
       <div className="flex flex-col gap-6">
-        <h1 className="text-[#000000]" style={{ fontFamily: 'Poppins', fontSize: 24, fontWeight: 600 }}>
+       <h1 className="text-[#000000] cursor-pointer" style={{ fontFamily: 'Poppins', fontSize: 24, fontWeight: 600 }}>
           Funiro.
         </h1>
         <h1
@@ -26,10 +27,10 @@ const Footer = () => {
             Links
           </h1>
           <ul className="flex flex-col gap-4">
-            <li>Home</li>
-            <li>Shop</li>
-            <li>About</li>
-            <li>Contact</li>
+            <Link href={"/"}><li>Home</li> </Link>
+           <Link href={"/Shop"}> <li>Shop</li> </Link>
+           <Link href={"/"}> <li>About</li></Link> 
+            <Link href={"/Contact"}><li>Contact</li> </Link>
           </ul>
         </div>
         <div className="flex flex-col gap-6">

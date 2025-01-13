@@ -38,15 +38,15 @@ const Inspration = () => { ;
 </div>
 
    <Image
-         src={pic2} alt='image' className='w-full sm:w-[327px] h-[486px] relative hidden sm:block ' />
-          <Image
-         src={pic4} alt='image' className='sm:w-[70px] h-[70px] mt-72 absolute ml-[750px] hidden sm:block' />
-
+        src={pic2} alt='image' className='w-full sm:w-[327px] h-[486px] relative hidden sm:block ' />
+         
          <Image
          src={pic3} alt='image' className='w-[100px] h-[486px] sm:w-[150px] sm:h-[500px] relative hidden sm:block ' />
    
     </div>
   
+ <Image
+         src={pic4} alt='image' className='sm:w-[70px] h-[70px] mt-72 absolute ml-[980px] hidden sm:block ' />
 
         </div>
       

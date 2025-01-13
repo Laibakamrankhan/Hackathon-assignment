@@ -1,5 +1,6 @@
 import Image from "next/image"
 import banner from "@/public/banner.png"
+import Link from "next/link"
 const Herobanner = () => {
   return (
     <div id="banner" className="w-full h-[500px] xs:h-[700px] sm:h-[1007.93px] mt-[50px] xs:mt-[75px] sm:mt-[95.7px]">
@@ -35,6 +36,7 @@ const Herobanner = () => {
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
         luctus nec ullamcorper mattis.
       </p>
+      <Link href={"/Shop"}>
       <button className="bg-[#B88E2F] text-[#FFFFFF] w-[150px] xs:w-[180px] sm:w-[222px] h-[50px] xs:h-[60px] sm:h-[74px] py-3 sm:py-[25px] px-4 sm:px-[70px] mx-auto sm:mx-0">
         <h1
           className="items-center text-sm xs:text-base sm:text-lg"
@@ -42,7 +44,7 @@ const Herobanner = () => {
         >
           BUY Now
         </h1>
-      </button>
+      </button> </Link>
     </div>
   </div>
 </div>
